@@ -14,7 +14,6 @@ body {
     flex-direction: column;
 }
 
-/* Animated Background */
 body::before {
     content: '';
     position: fixed;
@@ -42,7 +41,6 @@ body::before {
     }
 }
 
-/* Navbar */
 .navbar {
     backdrop-filter: blur(10px);
     background: rgba(15, 23, 42, 0.9) !important;
@@ -95,7 +93,6 @@ body::before {
     color: #22d3ee !important;
 }
 
-/* Hero Section */
 .hero {
     position: relative;
     min-height: 100vh;
@@ -162,7 +159,6 @@ body::before {
     color: #cbd5e1;
 }
 
-/* Buttons */
 .btn-primary,
 .btn-lg.btn-primary {
     background: linear-gradient(135deg, #22d3ee, #3b82f6);
@@ -215,7 +211,6 @@ body::before {
     background: linear-gradient(135deg, #ec4899, #a855f7);
 }
 
-/* Products Section */
 .products {
     padding: 120px 20px 60px;
     position: relative;
@@ -232,7 +227,6 @@ body::before {
     margin-bottom: 3rem;
 }
 
-/* Product Cards */
 .card {
     background: rgba(30, 41, 59, 0.6);
     border-radius: 20px;
@@ -284,7 +278,6 @@ body::before {
     margin-bottom: 1rem;
 }
 
-/* About Page */
 main.container {
     padding-top: 120px;
     padding-bottom: 60px;
@@ -331,7 +324,6 @@ main.container img {
     box-shadow: 0 10px 40px rgba(34, 211, 238, 0.3);
 }
 
-/* Contact Page */
 .contact {
     padding: 120px 20px 60px;
     position: relative;
@@ -358,7 +350,6 @@ main.container img {
     margin: 0 auto;
 }
 
-/* Authentication Pages */
 .auth-container {
     min-height: 100vh;
     display: flex;
@@ -431,7 +422,6 @@ main.container img {
     border-radius: 5px;
 }
 
-/* Form Elements */
 .form-label {
     color: #cbd5e1;
     font-weight: 500;
@@ -463,7 +453,6 @@ textarea.form-control {
     resize: vertical;
 }
 
-/* Tables */
 .table {
     background: rgba(30, 41, 59, 0.6);
     border-radius: 10px;
@@ -493,7 +482,6 @@ textarea.form-control {
     background-color: rgba(34, 211, 238, 0.1);
 }
 
-/* Footer */
 footer {
     background: rgba(15, 23, 42, 0.95);
     padding: 2rem 0;
@@ -509,7 +497,6 @@ footer p {
     color: #cbd5e1;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
     .hero h2 {
         font-size: 2.5rem;
@@ -573,7 +560,6 @@ footer p {
     }
 }
 
-/* Additional Utility Classes */
 .text-muted {
     color: #94a3b8 !important;
 }
@@ -621,7 +607,6 @@ footer p {
     border-radius: 0.25rem;
 }
 
-/* Animations */
 .fade-in {
     animation: fadeIn 0.5s ease-in;
 }
@@ -638,7 +623,6 @@ footer p {
     }
 }
 
-/* Form Validation Styles */
 .is-invalid {
     border-color: #ef4444 !important;
 }
@@ -653,7 +637,6 @@ footer p {
     margin-top: 0.25rem;
 }
 
-/* Loading Animation */
 .loading {
     display: inline-block;
     width: 20px;
@@ -670,7 +653,6 @@ footer p {
     }
 }
 
-/* Scrollbar Styling */
 ::-webkit-scrollbar {
     width: 10px;
 }
